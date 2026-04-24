@@ -1,0 +1,18 @@
+<leads>
+  <lead>
+    <id>101</id>
+    <name>Sarah Mwesigwa</name>
+    <email>sarah@example.com</email>
+    <country>Uganda</country>
+    <source>ad_campaign_1</source>
+    <created_at>2026-04-03 09:15:00</created_at>
+  </lead>
+  <lead>
+    <id>102</id>
+    <name>David Okello</name>
+    <email>david@example.com</email>
+    <country>Kenya</country>
+    <source>ad_campaign_2</source>
+    <created_at>2026-04-03 11:20:00</created_at>
+  </lead>
+</leads>

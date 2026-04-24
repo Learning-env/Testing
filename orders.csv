@@ -1,0 +1,4 @@
+order_id,customer_id,product,amount,currency,status
+1001,1,T‑shirt,25.50,USD,pending
+1002,2,Book,12.99,USD,delivered
+1003,1,Backpack,45.00,USD,shipped

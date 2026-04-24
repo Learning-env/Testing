@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "name": "Alice Nalubega",
+    "email": "alice@example.com",
+    "phone": "+256700000001",
+    "country": "Uganda",
+    "created_at": "2026-04-01T10:00:00Z"
+  },
+  {
+    "id": 2,
+    "name": "Kato John",
+    "email": "kato@example.com",
+    "phone": "+256700000002",
+    "country": "Uganda",
+    "created_at": "2026-04-02T14:30:00Z"
+  }
+]

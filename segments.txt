@@ -1,0 +1,18 @@
+{
+  "segments": [
+    {
+      "name": "Uganda_newsletter",
+      "conditions": {
+        "country": "Uganda",
+        "tags": ["newsletter_subscriber"]
+      }
+    },
+    {
+      "name": "High_value_international",
+      "conditions": {
+        "tags": ["high_value"],
+        "country_not": "Uganda"
+      }
+    }
+  ]
+}
