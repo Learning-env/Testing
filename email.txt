@@ -1,0 +1,101 @@
+hSubject: PR Request and Product Catalog – [CLIENT_NAME] – [DATE]
+
+Dear [CLIENT_NAME],
+
+Thank you for your interest in our products and services. Please find below:
+
+- A section for any GitHub PR request you send us.
+- A product catalog of 20 items (HTML‑ready version attached or provided as a page).
+
+---
+
+### 1. PR REQUEST FROM GITHUB
+===========================
+
+Please fill in (or map from GitHub) the following:
+
+- PR title: [PR_TITLE]  
+- PR description: [PR_DESCRIPTION]  
+- PR URL: [PR_URL]  
+- Repository: [PR_REPO]  
+- Branch: [PR_BRANCH]  
+- Author: [PR_AUTHOR]  
+- Status: [PR_STATUS]  
+- Created at: [PR_CREATED_AT]  
+- Updated at: [PR_UPDATED_AT]  
+- Number of files changed: [PR_FILES_CHANGED]  
+- Number of additions: [PR_ADDITIONS]  
+- Number of deletions: [PR_DELETIONS]  
+- Reviewers: [PR_REVIEWERS]  
+- Assignees: [PR_ASSIGNEES]  
+- Labels: [PR_LABELS]  
+- Linked issues: [PR_LINKED_ISSUES]  
+
+This will serve as our official record of the PR request and integration details.
+
+---
+
+### 2. PRODUCT CATALOG (OVERVIEW)
+=================================
+
+We supply a catalog of at least 20 products. Each item includes:
+
+- SKU: [ITEM_SKU_TEMPLATE]
+- Product name: [ITEM_NAME_TEMPLATE]
+- Category: [ITEM_CATEGORY_TEMPLATE]
+- Price: [ITEM_PRICE_TEMPLATE]
+- Currency: [ITEM_CURRENCY_TEMPLATE]
+- Availability: [ITEM_AVAILABILITY_TEMPLATE]
+- Short description: [ITEM_SHORT_DESCRIPTION_TEMPLATE]
+- Tags: [ITEM_TAGS_TEMPLATE]
+
+You can display this catalog as a full HTML website (see attached `catalog.html`) or integrate the 20 items directly into your system.
+
+Data mapping fields (for your automation):
+
+- [PR_TITLE] → GitHub PR title
+- [PR_DESCRIPTION] → PR body / description
+- [PR_URL] → PR link
+- [PR_REPO] → repository name
+- [PR_BRANCH] → target branch
+- [PR_AUTHOR] → GitHub username of the author
+- [PR_STATUS] → open, closed, merged, draft
+- [PR_CREATED_AT] → creation timestamp
+- [PR_UPDATED_AT] → last update timestamp
+- [PR_FILES_CHANGED], [PR_ADDITIONS], [PR_DELETIONS] → stats from GitHub
+- [PR_REVIEWERS], [PR_ASSIGNEES], [PR_LABELS], [PR_LINKED_ISSUES] → metadata
+
+For products:
+
+- [ITEM_SKU_TEMPLATE] → item SKU / code
+- [ITEM_NAME_TEMPLATE] → product name
+- [ITEM_CATEGORY_TEMPLATE] → category
+- [ITEM_PRICE_TEMPLATE] → price
+- [ITEM_CURRENCY_TEMPLATE] → currency
+- [ITEM_AVAILABILITY_TEMPLATE] → in stock / out of stock / pre‑order
+- [ITEM_SHORT_DESCRIPTION_TEMPLATE] → short description
+- [ITEM_TAGS_TEMPLATE] → tags (e.g., featured, new, discount)
+
+---
+
+### 3. NEXT STEPS
+================
+
+- Confirm receipt of this email and the PR request.
+- Confirm that your system can accept the above data structure for PRs and products.
+- Indicate if you prefer:
+  - Full catalog as JSON,
+  - CSV file,
+  - Direct API integration,
+  - Or rendered HTML page (`catalog.html`).
+
+We look forward to your feedback and to working with you.
+
+Best regards,
+
+[SENDER_NAME]  
+[SENDER_ROLE]  
+[COMPANY_NAME]  
+[PHONE]  
+[EMAIL]  
+[WEBSITE]
