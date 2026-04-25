@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Products Website</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background: #007BFF;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    .catalog-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      gap: 16px;
+    }
+    .product {
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 12px;
+      background: white;
+    }
+    .product img {
+      width: 100%;
+      height: 160px;
+      object-fit: cover;
+      border-radius: 6px;
+      margin-bottom: 8px;
+    }
+    .name {
+      font-weight: bold;
+      margin: 4px 0;
+      font-size: 1.05rem;
+    }
+    .category {
+      color: #555;
+      font-size: 0.9rem;
+      margin: 4px 0;
+    }
+    .price {
+      font-weight: bold;
+      font-size: 1.15rem;
+      margin: 6px 0;
+    }
+    .short-desc {
+      color: #666;
+      font-size: 0.9rem;
+      margin: 4px 0;
+    }
+    .tags {
+      color: #777;
+      font-size: 0.85rem;
+      margin: 4px 0;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Products Website</h1>
+    <p>High‑quality products for your projects and business</p>
+  </header>
+
+  <div class="container">
+    <div class="catalog-grid">
+
+      <!-- Item 1 -->
+      <div class="product">
+        <img src="https://via.placeholder.com/250x160?text=Wireless+Headphones" alt="Wireless Headphones">
+        <div class="name">Wireless Noise‑Canceling Headphones</div>
+        <div class="category">Audio & Electronics</div>
+        <div class="price">USD 129.99</div>
+        <div class="short-desc">Over‑ear wireless headphones with 30‑hour battery life and touch controls.</div>
+        <div class="tags">Tags: headphones, wireless, noise_canceling, premium</div>
+      </div>
+
+      <!-- Item 2 -->
+      <div class="product">
+        <img src="https://via.placeholder.com/250x160?text=Smart+Watch" alt="Smart Watch">
+        <div class="name">Smart Fitness Watch</div>
+        <div class="category">Wearables</div>
+        <div class="price">USD 99.99</div>
+        <div class="short-desc">Smartwatch with heart‑rate monitor, GPS, sleep tracking, and 7‑day battery.</div>
+        <div class="tags">Tags: smartwatch, fitness, health, gps</div>
+      </div>
+
+      <!-- Item 3 -->
+      <div class="product">
+        <img src="https://via.placeholder.com/250x160?text=Portable+Speaker" alt="Portable Speaker">
+        <div class="name">Portable Bluetooth Speaker</div>
+        <div class="category">Audio & Electronics</div>
+        <div class="price">USD 49.99</div>
+        <div class="short-desc">Water‑resistant Bluetooth speaker with 12‑hour playback and rich sound.</div>
+        <div class="tags">Tags: speaker, portable, bluetooth, water_resistant</div>
+      </div>
+
+      <!-- Item 4 -->
+      <div class="product">
+        <img src="https://via.placeholder.com/250x160?text=Laptop+Stand" alt="Laptop Stand">
+        <div class="name">Adjustable Laptop Stand</div>
+        <div class="category">Office & Workspace</div>
+        <div class="price">USD 39.99</div>
+        <div class="short-desc">Ergonomic laptop stand with adjustable height and solid build.</div>
+        <div class="tags">Tags: laptop_stand, ergonomic, office, desk</div>
+      </div>
+
+      <!-- Item 5 -->
+      <div class="product">
+        <img src="https://via.placeholder.com/250x160?text=Wireless+Mouse" alt="Wireless Mouse">
+        <div class="name">Wireless Optical Mouse</div>
+        <div class="category">Computer Accessories</div>
+        <div class="price">USD 24.99</div>
+        <div class="short-desc">Compact wireless mouse with smooth tracking and 12‑month battery life.</div>
+        <div class="tags">Tags: mouse, wireless, computer, accessory</div>
+      </div>
+
+      <!-- Item 6 -->
+      <div class="product">
+        <img src="https://via.placeholder.com/250x160?text=Phone+Case" alt="Phone Case">
+        <div class="name">Rugged Shock‑Proof Phone Case</div>
+        <div class="category">Mobile Accessories</div>
+        <div class="price">USD 18.99</div>
+        <div class="short-desc">Heavy‑duty protective case with drop protection and raised edges.</div>
+        <div class="tags">Tags: phone_case, rugged, shock_proof, protection</div>
+      </div>
+
+      <!-- Item 7 -->
+      <div class="product">
+        <img src="https://via.placeholder.com/250x160?text=Power+Bank" alt="Power Bank">
+        <div class="name">20000mAh Power Bank</div>
+        <div class="category">Power & Charging</div>
+        <div class="price">USD 45.99</div>
+        <div class="short-desc">High‑capacity USB‑C power bank with fast charging and 3‑port output.</div>
+        <div class="tags">Tags: power_bank, charging, usb_c, fast_charge</div>
+      </div>
+
+      <!-- Item 8 -->
+      <div class="product">
+        <img src="https://via.placeholder.com/250x160?text=Webcam" alt="Webcam">
+        <div class="name">1080p HD Webcam</div>
+        <div class="category">Streaming & Video</div>
+        <div class="price">USD 59.99</div>
+        <div class="short-desc">Full‑HD webcam with built‑in microphone and auto‑focus.</div>
+        <div class="tags">Tags: webcam, hd, streaming, microphone</div>
+      </div>
+
+      <!-- Item 9 -->
+      <div class="product">
+        <img src="https://via.placeholder.com/250x160?text=Mechanical+Keyboard" alt="Mechanical Keyboard">
+        <div class="name">RGB Mechanical Keyboard</div>
+        <div class="category">Gaming & Peripherals</div>
+        <div class="price">USD 89.99</div>
+        <div class="short-desc">Mechanical gaming keyboard with RGB backlight and programmable keys.</div>
+        <div class="tags">Tags: keyboard, mechanical, gaming, rgb</div>
+      </div>
+
+      <!-- Item 10 -->
+      <div class="product">
+        <img src="https://via.placeholder.com/250x160?text=LED+Desk+Lamp" alt="LED Desk Lamp">
+        <div class="name">LED Desk Lamp with USB Port</div>
+        <div class="category">Lighting & Office</div>
+        <div class="price">USD 34.99</div>
+        <div class="short-desc">Adjustable LED desk lamp with 3‑level brightness and USB charging port.</div>
+        <div class="tags">Tags: lamp, led, desk, usb_charging</div>
+      </div>
+
+      <!-- Item 11 -->
+      <div class="product">
+        <img src="https://via.placeholder.com/250x160?text=Wireless+Charger" alt="Wireless Charger">
+        <div class="name">10W Wireless Charging Pad</div>
+        <div class="category">Power & Charging</div>
+        <div class="price">USD 29.99</div>
+        <div class="short-desc">Qi‑compatible wireless charging pad for smartphones and earbuds.</div>
+        <div class="tags">Tags: wireless_charger, qi, charger, fast_charging</div>
+      </div>
+
+      <!-- Item 12 -->
+      <div class="product">
+        <img src="https://via.placeholder.com/250x160?text=Smart+Plug" alt="Smart Plug">
+        <div class="name">Wi‑Fi Smart Plug</div>
+        <div class="category">Home Automation</div>
+        <div class="price">USD 24.99</div>
+        <div class="short-desc">Remote‑controlled outlet plug for lamps and small appliances via app.</div>
+        <div class="tags">Tags: smart_plug, wifi, home_automation, remote_control</div>
+      </div>
+
+      <!-- Item 13 -->
+      <div class="product">
+        <img src="https://via.placeholder.com/250x160?text=Bluetooth+Earbuds" alt="Bluetooth Earbuds">
+        <div class="name">True Wireless Bluetooth Earbuds</div>
+        <div class="category">Audio & Electronics</div>
+        <div class="price">USD 54.99</div>
+        <div class="short-desc">Compact true wireless earbuds with touch controls and 24‑hour case battery.</div>
+        <div class="tags">Tags: earbuds, wireless, bluetooth, true_wireless</div>
+      </div>
+
+      <!-- Item 14 -->
+      <div class="product">
+        <img src="https://via.placeholder.com/250x160?text=Gaming+Mouse+Pad" alt="Gaming Mouse Pad">
+        <div class="name">Large Gaming Mouse Pad</div>
+        <div class="category">Gaming & Peripherals</div>
+        <div class="price">USD 19.99</div>
+        <div class="short-desc">Extra‑large gaming mouse pad with non‑slip rubber base and RGB accents.</div>
+        <div class="tags">Tags: mouse_pad, gaming, large, rgb</div>
+      </div>
+
+      <!-- Item 15 -->
+      <div class="product">
+        <img src="https://via.placeholder.com/250x160?text=USB+Hub" alt="USB Hub">
+        <div class="name">7‑Port USB 3.0 Hub</div>
+        <div class="category">Computer Accessories</div>
+        <div class="price">USD 32.99</div>
+        <div class="short-desc">High‑speed USB‑C powered hub with 7 USB 3.0 ports.</div>
+        <div class="tags">Tags: usb_hub, usb_3, computer, multi_port</div>
+      </div>
+
+      <!-- Item 16 -->
+      <div class="product">
+        <img src="https://via.placeholder.com/250x160?text=Mini+Projector" alt="Mini Projector">
+        <div class="name">HD Mini Portable Projector</div>
+        <div class="category">Home Theatre & Entertainment</div>
+        <div class="price">USD 199.99</div>
+        <div class="short-desc">Compact HD projector with built‑in speaker and HDMI input.</div>
+        <div class="tags">Tags: projector, hd, portable, home_theatre</div>
+      </div>
+
+      <!-- Item 17 -->
+      <div class="product">
+        <img src="https://via.placeholder.com/250x160?text=Wireless+Router" alt="Wireless Router">
+        <div class="name">Wi‑Fi 6 Dual‑Band Router</div>
+        <div class="category">Networking</div>
+        <div class="price">USD 129.99</div>
+        <div class="short-desc">Wi‑Fi 6 router with dual‑band, beamforming, and 4x antennas.</div>
+        <div class="tags">Tags: router, wifi_6, networking, dual_band</div>
+      </div>
+
+      <!-- Item 18 -->
+      <div class="product">
+        <img src="https://via.placeholder.com/250x160?text=External+Hard+Drive" alt="External Hard Drive">
+        <div class="name">2TB External SSD</div>
+        <div class="category">Storage</div>
+        <div class="price">USD 149.99</div>
+        <div class="short-desc">Portable external SSD with USB‑C and 500MB/s read‑write speed.</div>
+        <div class="tags">Tags: ssd, external, storage, usbc</div>
+      </div>
+
+      <!-- Item 19 -->
+      <div class="product">
+        <img src="https://via.placeholder.com/250x160?text=Gaming+Chair" alt="Gaming Chair">
+        <div class="name">Ergonomic Gaming Chair</div>
+        <div class="category">Furniture & Gaming</div>
+        <div class="price">USD 189.99</div>
+        <div class="short-desc">Contoured gaming chair with lumbar support and adjustable armrests.</div>
+        <div class="tags">Tags: gaming_chair, ergonomic, chair, adjustable</div>
+      </div>
+
+      <!-- Item 20 -->
+      <div class="product">
+        <img src="https://via.placeholder.com/250x160?text=WiFi+Camera" alt="WiFi Camera">
+        <div class="name">Indoor Wi‑Fi Security Camera</div>
+        <div class="category">Home Security</div>
+        <div class="price">USD 79.99</div>
+        <div class="short-desc">Indoor 1080p security camera with night vision and app streaming.</div>
+        <div class="tags">Tags: security_camera, wifi, indoor, 1080p</div>
+      </div>
+
+    </div>
+  </div>
+
+</body>
+</html>
