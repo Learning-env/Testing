@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact - Modern Catalog</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Modern Products Catalog</h1>
+    <nav>
+      <a href="catalog.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="contact.html" class="active">Contact</a>
+    </nav>
+  </header>
+  <div class="container">
+    <h2>Contact Us</h2>
+    <form onsubmit="alert('Thank you! Your message has been sent.'); return false;">
+      <label>Your Name:<br>
+        <input type="text" required>
+      </label><br>
+      <label>Email:<br>
+        <input type="email" required>
+      </label><br>
+      <label>Message:<br>
+        <textarea rows="4" required></textarea>
+      </label><br>
+      <button type="submit">Send Message</button>
+    </form>
+    <p style="margin-top:22px;color:#888;font-size:.98rem;">We’ll email you as soon as possible. No data stored—demo purpose only.</p>
+  </div>
+  <footer>
+    &copy; 2026 Modern Products Catalog &mdash; Thank you for visiting!
+  </footer>
+</body>
+</html>

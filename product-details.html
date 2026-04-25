@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Product Details</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Modern Products Catalog</h1>
+    <nav>
+      <a href="catalog.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+  <div class="container">
+    <div id="details"></div>
+    <button onclick="window.history.back()">← Back to Catalog</button>
+  </div>
+  <footer>
+    &copy; 2026 Modern Products Catalog &mdash; Your product info hub!
+  </footer>
+  <script>
+    (async function() {
+      const id = parseInt(localStorage.getItem('selectedProductId'), 10);
+      const products = await (await fetch('products.json')).json();
+      const prod = products.find(p => p.id === id);
+      const details = document.getElementById('details');
+      if (!prod) {
+        details.innerHTML = '<p>Product not found. <a href="catalog.html">Back to catalog</a></p>';
+        return;
+      }
+      details.innerHTML = `
+        <h2>${prod.name}</h2>
+        <img src="${prod.img}" alt="${prod.name}">
+        <div><strong>Category:</strong> ${prod.category}</div>
+        <div><strong>Price:</strong> USD ${prod.price.toFixed(2)}</div>
+        <div style="margin:10px 0 16px 0;"><strong>Description:</strong><br> ${prod.desc}</div>
+        <div><strong>Tags:</strong> ${prod.tags.join(', ')}</div>
+      `;
+    })();
+  </script>
+</body>
+</html>
